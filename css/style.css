@@ -1,0 +1,58 @@
+:root{
+    --font:'Raleway', sans-serif;
+}
+body{
+    font-family: var(--font);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+header{
+    height: fit-content;
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;  
+      
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color:white
+} 
+
+.container .nav h1{
+    font-weight: 300;
+}
+
+.container .nav h1 span{
+    font-weight: 700;
+}
+.menu-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-top img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.menu-top p{
+    font-size: 1.1rem;
+}
+
+.menu-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 5px;
+    
+}
